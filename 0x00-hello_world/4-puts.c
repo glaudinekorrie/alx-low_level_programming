@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-/*
- * we will use puts and not printf
- * Return hs a parenthesis
+/**
+ *main-Entry point
+ *Return :Always 0(Success)
  */
 int main(void)
 {
