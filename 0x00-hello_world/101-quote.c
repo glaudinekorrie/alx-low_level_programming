@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<unistd.h>
 /**
- * main function is void
- * return value must be 1 and not 0
+ * main: Entry point
+ * return:Always 1
  */
 int main(void)
 {
