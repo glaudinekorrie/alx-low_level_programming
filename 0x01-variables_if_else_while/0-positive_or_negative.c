@@ -10,17 +10,17 @@ int main(void)
 	int n;
 	srand(time(0));
 	n = rand();
-	if (n>0)
+	if (n > 0)
 	{
-		printf("%d - The number is positive", n);
+		printf("%d is positive\n", n);
 	}
-	else if (n==0)
+	else if (n == 0)
 	{
-		printf("%d - The number is zero", n);
+		printf("%d is zero\n", n);
 	}
-	else 
+	else
 	{
-		printf("%d - The number is negative", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
