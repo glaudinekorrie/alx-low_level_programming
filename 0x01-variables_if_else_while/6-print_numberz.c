@@ -3,13 +3,13 @@
 /**
  * main-execution starts
  *
- * Return: value is 0(Success)
+ * Return: value is 0 (Success)
  */
 int main(void)
 {
 	int n;
 
-	for (n = '0'; n < '10'; n++)
+	for (n = '0'; n <= '9'; n++)
 	{
 		putchar(n);
 	}
