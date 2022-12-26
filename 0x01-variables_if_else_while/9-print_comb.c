@@ -7,14 +7,13 @@
  */
 int main(void)
 {
-	int arr[i, j];
+	int i, j;
 
 	for(i = '0'; i <= '9'; i++)
 	{
-		for (j = '0'; j<= '9'; j++)
-		{
-			putchar(arr[i ,j]);
-		}
+		putchar(i);
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
