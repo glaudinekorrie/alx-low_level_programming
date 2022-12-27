@@ -5,7 +5,7 @@
  *
  * Return :value is 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	int i, j;
 
@@ -15,9 +15,9 @@ int main (void)
 		{
 			if (i < j)
 			{
-		       	   putchar(i);
-			   putchar(j);
-
+	     			putchar(i);
+				putchar(j);
+	
 				if (i != '8' || j != '9')
 				{
 					putchar(',');
