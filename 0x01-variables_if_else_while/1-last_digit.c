@@ -4,7 +4,7 @@
 /**
  * main - checks last value
  *
- * Return : value is 0
+ * Return: value is 0(Success)
  */
 int main(void)
 {
