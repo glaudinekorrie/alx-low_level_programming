@@ -3,7 +3,7 @@
 /**
  * main - Execution starts
  *
- * Return : Value is 0(Success)
+ * Return: Value is 0(Success)
  */
 int main(void)
 {
