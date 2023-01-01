@@ -1,10 +1,8 @@
-#include<stdio.h>
-#include<stdlib.h>
 #include"main.h"
 /**
- * main - Execution starts
+ *print_alphabet - Execution starts
  *
- * Return: value is 0(Sccess)
+ * Return: void
  */
 void print_alphabet(void)
 {
@@ -12,14 +10,8 @@ void print_alphabet(void)
 
 	for (n = 'a'; n <= 'z'; n++)
 	{
-		putchar(n);
+		_putchar(n);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
 
