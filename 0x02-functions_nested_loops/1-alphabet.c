@@ -13,10 +13,12 @@ void print_alphabet(void)
 	{
 		putchar(n);
 	}
+	putchar('\n');
 }
-
 int main(void)
 {
 	print_alphabet();
-	return(0);
+	return (0);
 }
+
+
