@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * print_alphabet - Execution starts
+ * print_alphabet_x10 - Execution starts
  *
  * return: value is void
  */
@@ -9,12 +9,13 @@ void print_alphabet_x10(void)
 	char c;
 	int i;
 
-	for (i = 0; i <= 10; i++)
-	{	
+	while (i <= 9)
+	{
 		for (c = 'a'; c <= 'z'; i++)
 		{
 			_putchar(c);
 		}
+		i++;
 	}
 	_putchar('\n');
 }
