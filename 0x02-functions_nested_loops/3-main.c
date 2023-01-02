@@ -15,7 +15,7 @@ int main(void)
 	_putchar(r + '0');
 	r = _islower(108);
 	_putchar(r + '0');
-	i_putchar('\n');
+	_putchar('\n');
 	return (0);
 
 }
