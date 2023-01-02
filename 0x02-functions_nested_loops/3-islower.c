@@ -5,7 +5,7 @@
 /**
  * _islower - Checks for lowercase
  *
- * @c - to be checked
+ * @c: to be checked
  *
  * Return: Value is 1 0r 0
  */
