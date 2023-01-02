@@ -4,6 +4,8 @@
 /**
  * print_last_digit - to be executed
  *
+ * @r: to be checked
+ *
  * Return: value is 0
  */
 int print_last_digit(int r)
