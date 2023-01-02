@@ -4,6 +4,8 @@
 /**
  * _abs - to be executed
  *
+ * @n: to be checked
+ *
  * Return: value is 0
  */
 int _abs(int n)
