@@ -3,7 +3,9 @@
 #include<stdlib.h>
 #include<ctype.h>
 /**
- * islower - Checks for lowercase
+ * _islower - Checks for lowercase
+ *
+ * @c - to be checked
  *
  * Return: Value is 1 0r 0
  */
