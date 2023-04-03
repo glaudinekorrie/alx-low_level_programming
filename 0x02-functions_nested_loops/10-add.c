@@ -4,7 +4,8 @@
 /**
  * add - Adds two digits
  *
- * @n: to be checked
+ * @n1: to be checked
+ * @n2: to be checked
  *
  * Return: Value is result of addition
  */
