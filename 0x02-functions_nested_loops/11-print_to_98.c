@@ -2,9 +2,9 @@
 #include<stdio.h>
 
 /*
- * print_to_98- Where execution starts
+ * print_to_98- Execution starts
  *
- * return : value is printed values upto 98
+ * Return : value is printed
  *
  */
 void print_to_98(int n)
