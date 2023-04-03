@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 /*
- * print_to_98: Where execution starts
+ * print_to_98- Where execution starts
  *
  * return : value is printed values upto 98
  *
