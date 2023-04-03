@@ -8,11 +8,8 @@
  *
  * Return: Value is result of addition
  */
-int add(int, int)
+int add(int n1, int n2)
 {
-	int n, i, j;
 
-	n = i + j;
-
-	return (n);
+	return (n1 + n2);
 }
