@@ -5,27 +5,23 @@
  *
  * @i - value to be read
  * @j - vakue to be read
- * @k - value to be read
- * return : sum
+ *
+ * return : 0
  */
-int main()
-{
-	int i;
-	int j;
-	int k;
-	int sum;
 
-	for (i = 0; i < 10; i++)
+int main(void)
+{
+	int i, j;
+
+	for (i = 0; i <= 1023; i++)
 	{
-		j = i % 3;
-		k = i % 5;
-		if(j == 0 || k == 0)
+		if (i % 3 == 0 || i % 5 == 0)
 		{
-			sum = 0;
-			sum = sum + i;
+			j = 0;
+			j += i;
 		}
 	}
-	putchar(sum);
+	printf("%d\n", j);
 	return (0);
 }
 
