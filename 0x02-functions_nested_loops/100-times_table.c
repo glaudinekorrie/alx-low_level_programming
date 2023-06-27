@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 
 /**
   * print_times_table - Prints a multiplication table up to param
@@ -13,26 +13,22 @@ void print_times_table(int n)
 	int i;
 	int j;
 
-	if (n >= 0 && n <= 15)
+	while (n >= 0 && n <= 15)
 	{
 		for (i = 0; i <= n; i++)
 		{
-			for (j = 0; j <= n; j++)
+			/*_putchar('0');*/
+			for (j = 1; j <= n; j++)
 			{
 				int z = i * j;
 
-				if (j == n)
-				{
-					putchar(z);
-				}
-				else
-				{
-					putchar(z);
-					putchar(',');
-					putchar(' ');
-				}
+				/*
+				 *_putchar(',');
+				 *_putchar(' ');
+				 */
+				_putchar(z);
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
