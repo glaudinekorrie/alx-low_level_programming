@@ -1,7 +1,8 @@
-#include <stdio.h>
+#include<stdio.h>
 #include "main.h"
+
 /**
- *print-numbers - execution starts
+ *main - execution starts
  *return : always 0
  */
 
