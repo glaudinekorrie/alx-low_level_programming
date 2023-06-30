@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *main - execution starts
+ *print_numbers - execution starts
  *@i - value to be read
  *return : always 0
  */
