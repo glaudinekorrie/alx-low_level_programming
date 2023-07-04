@@ -11,17 +11,21 @@
 
 int main(void)
 {
-	int i, j;
+	int i = 1;
+	int total = 0;
 
-	for (i = 0; i <= 1023; i++)
+	while (i < 1024)
 	{
-		if (i % 3 == 0 || i % 5 == 0)
-		{
-			j = 0;
-			j += i;
-		}
+		if (i % 3 == 0)
+			total += i;
+		else if (i % 5 == 0)
+			total += i;
+
+		i++;
 	}
-	printf("%d\n", j);
+	printf("%d\n", total);
+
 	return (0);
 }
+
 
